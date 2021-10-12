@@ -2,8 +2,8 @@ import React from 'react';
 
 function Intro() {
   return (
-    <div className="intro">
-      intro
+    <div className="intro" id="intro">
+      Hello
     </div>
   )
 }

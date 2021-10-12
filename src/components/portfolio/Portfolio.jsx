@@ -3,8 +3,8 @@ import "./Portfolio.scss";
 
 function Portfolio() {
   return (
-    <div className="portfolio">
-      
+    <div className="portfolio" id="portfolio">
+      Hello 
     </div>
   )
 }
