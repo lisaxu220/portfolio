@@ -1,3 +1,50 @@
+@import '../../global.scss';
+
 .portfolio {
-  background-color: lightskyblue;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+    h1 {
+      font-size: 50px;
+    }
+}
+
+.portfolio__container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .portfolio__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    width: 400px;
+    height: 400px;
+
+
+    h3 {
+      position: absolute;
+      font-style: 20px;
+    }
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    &:hover {
+      background-color: $mainColour;
+        img {
+          opacity: 0;
+        }
+    }
+  }
 }
