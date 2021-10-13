@@ -11,10 +11,13 @@ function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi, I'm</h2>
-          <h1>Lisa</h1>
-          <h3>Fullstack <span>Developer</span></h3>
+          <h2>Hi, I'm <span>Lisa.</span></h2>
+          <h3>Fullstack Developer</h3>
         </div>
+
+        <a href="#portfolio">
+          <img src="assets/down.png" alt="" />
+        </a>
       </div>
     </div>
   )
